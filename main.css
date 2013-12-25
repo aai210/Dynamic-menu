@@ -1,0 +1,90 @@
+body {
+	 background:url(http://subtlepatterns.com/patterns/subtlenet2.png);
+	 font: 14px Arial, Tahoma;
+	 text-transform: uppercase;
+}
+
+/***********Main Menu************/
+
+.nav {
+	list-style: none;
+	margin: 50px;
+	opacity: .5;
+	padding: 0;
+	width: 50px;
+
+	transition: opacity .2s ease-in-out, height .2s ease-in-out;
+}
+
+.nav:hover{
+	opacity: 1;
+}
+
+
+.nav li {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+
+	transition: width .2s ease-in-out, height .2s ease-in-out;
+}
+
+.nav li:hover {
+	width: 200px;
+	height: 175px;
+}
+
+.nav li a {
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background: #bbb;
+	margin: 1px;
+	color: #fff;
+	padding-left: 15px;
+	cursor: pointer;
+
+	transition:background .2s ease-in-out;
+}
+
+.nav li a:hover{
+	background: #2fc5ff;
+
+}
+
+.nav li a:first-child {
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	text-indent: 36px;
+}
+
+
+.nav li a:first-child::before {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 32px;
+	width: 32px;
+	top: 9px;
+	left: 9px;
+
+}
+
+.main-menu a:first-child::before {
+	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/home_zpsa127fd15.png) center no-repeat;
+}
+
+.settings a:first-child::before {
+	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/settings_zps525e78cd.png) center no-repeat;
+}
+
+.link a:first-child::before {
+	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/link_zps04859075.png) center no-repeat;
+}
+
+.search a:first-child::before {
+	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/search_zps45a53975.png) center no-repeat;
+}

@@ -74,17 +74,17 @@ body {
 }
 
 .main-menu a:first-child::before {
-	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/home_zpsa127fd15.png) center no-repeat;
+	background: url(https://lh6.googleusercontent.com/-be6GCOCfKCE/UyKWIGoaJPI/AAAAAAAADDw/bonF3JJLxR0/s32-no/home_zpsa127fd15.png) center no-repeat;
 }
 
 .settings a:first-child::before {
-	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/settings_zps525e78cd.png) center no-repeat;
+	background: url(https://lh4.googleusercontent.com/-waO6Z7xel0k/UyKWJhBazaI/AAAAAAAADDw/aEsLAo3S2WM/s32-no/settings_zps525e78cd.png) center no-repeat;
 }
 
 .link a:first-child::before {
-	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/link_zps04859075.png) center no-repeat;
+	background: url(https://lh4.googleusercontent.com/-eKhCkdXRyHo/UyKWIj6iRYI/AAAAAAAADDw/jwAwt2ezH20/s32-no/link_zps04859075.png) center no-repeat;
 }
 
 .search a:first-child::before {
-	background: url(http://i1254.photobucket.com/albums/hh605/aai21/github/search_zps45a53975.png) center no-repeat;
+	background: url(https://lh3.googleusercontent.com/--gWuDcS_uvc/UyKWJv7BxtI/AAAAAAAADDw/NghboaGjwyo/s32-no/search_zps45a53975.png) center no-repeat;
 }
